@@ -50,6 +50,9 @@ where \\(\\omega = 2\\pi f\\) is angular frequency. Assuming contant \\(\\mu\\) 
 where \\(\ k = \\omega\\sqrt{\\frac{\\rho}{\\mu}}=\\frac{\\omega}{v} \\) is the wave propagation constant.
 
 
+Discretization of problem
+-------------------------
+
 Artificial Boundary condition
 -----------------------------
 
