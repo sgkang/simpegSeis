@@ -62,7 +62,7 @@ To compute the solution of time or frequency dependent partial differential equa
 
 
 .. raw:: html
-    :file: examples\center_nobc.html
+    :file: examples/center_nobc.html
 
 Sponge boundary
 ===============
@@ -335,7 +335,7 @@ Then we compute:
     +\mathbf{\Omega}^{cc \ -1}\mathbf{diag}(\mathbf{vol})^{-1}(\mathbf{s}_d^{n+1}-\mathbf{s}_d^{n})
 
 .. raw:: html
-    :file: examples\center_pml.html
+    :file: examples/center_pml.html
 
 Stability conditions
 ====================
