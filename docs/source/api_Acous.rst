@@ -364,5 +364,5 @@ where \\(\ c \\) is a proper constant.
 Notebooks
 =========
 
-1. `How to run acoustic wave modeling in simpegSeis <../../../notebooks/SeismicFWD.html>`_
+1. `How to run acoustic wave modeling in simpegSeis <http://nbviewer.ipython.org/gist/sgkang/0945e0f856bb43dc45f2>`_
     Examples shown are generated through this ipython notebook.
