@@ -9,7 +9,7 @@ context of geoscience applications. simpegSeis uses SimPEG as the framework for 
 We consider two fundamental governing equations for seismic wave propagation: acoustic and elastic wave equations in both time and frequency domains. We initially discretize those problems to compute forward responses. Obvious next step is to solve inverse problems
 
 .. raw:: html
-    :file: examples\refraction.html
+    :file: examples/refraction.html
 
 Acoustic wave
 =============
