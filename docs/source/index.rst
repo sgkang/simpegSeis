@@ -24,9 +24,16 @@ Acoustic wave
 Elastic wave
 ============
 
+License
+=======
 
-Indices and tables
-==================
+.. toctree::
+   :maxdepth: 2
+
+   api_license
+
+Project Index & Search
+======================
 
 * :ref:`genindex`
 * :ref:`modindex`
