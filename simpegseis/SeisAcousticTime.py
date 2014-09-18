@@ -109,7 +109,7 @@ class AcousticProblemSponge(Problem.BaseProblem):
 		self.mesh.setCellGradBC('dirichlet')
 		Utils.setKwargs(self, **kwargs)
 
-	def setSpongeBC(self, npad, dt, bcflag="all"):
+	def setSpongeBC(self, npad, dt, bcflag="all", const=1.):
 		#TODO: performance of abosrbing
 		self.bcflag = bcflag
 		ax = self.mesh.vectorCCx[-npad]
@@ -140,7 +140,7 @@ class AcousticProblemSponge(Problem.BaseProblem):
 		temp[temp>1.] = 1.
 
 		f = 1.- temp*0.1
-		self.sig = (1.-f)/f*2./dt
+		self.sig = (1.-f)/f*2./dt*const
 
 
 	def stabilitycheck(self, v, time, fmain):
@@ -274,7 +274,7 @@ class AcousticProblemPML(Problem.BaseProblem):
 		self.mesh.setCellGradBC('dirichlet')
 		Utils.setKwargs(self, **kwargs)
 
-	def setPMLBC(self, npad, dt, bcflag="all"):
+	def setPMLBC(self, npad, dt, bcflag="all", const=1.):
 		#TODO: performance of abosrbing
 		self.bcflag = bcflag
 		ax = self.mesh.vectorCCx[-npad]
@@ -304,8 +304,8 @@ class AcousticProblemPML(Problem.BaseProblem):
 
 		fx = 1.-tempx*0.1
 		fy = 1.-tempy*0.1
-		self.sigx = (1-fx)/fx*2./dt
-		self.sigy = (1-fy)/fy*2./dt
+		self.sigx = (1-fx)/fx*2./dt*const
+		self.sigy = (1-fy)/fy*2./dt*const
 
 	def stabilitycheck(self, v, time, fmain):
 
