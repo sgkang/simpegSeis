@@ -8,7 +8,7 @@ context of geoscience applications. simpegSeis uses SimPEG as the framework for 
 
 We consider two fundamental governing equations for seismic wave propagation: acoustic and elastic wave equations in both time and frequency domains. We initially discretize those problems to compute forward responses. Obvious next step is to solve inverse problems
 
-A fundamental purpose of geophysical application is to better image the subsurface of the earth. One geophysical method only provide us a specific information about related material properties to that method. Therefore, to successfully achieve this goal, we should integrate different geophyisical applications. We believe that we, who have different geophysical backgrounds (Sesmic, EM, Magnetics, Gravity, ...), should cooperate. Therefore, we welcome that any people who want to contribute this project, simpegSeis. 
+We welcome any people who want to contribute this project developing forward modeling and inversion package of seimic data, simpegSeis.
 
 .. raw:: html
     :file: examples/refraction.html
