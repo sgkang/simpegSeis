@@ -171,7 +171,7 @@ By parameterizing the physical coordinate as
 
     x<0 \ : \ \text{real axis}
 
-    x>0 \ : \ \Im[\tilde{x}] < 0 \text{decaying term}
+    x>0 \ : \ \Im[\tilde{x}] < 0  \ (\text{decaying term})
 
 Another core treatment of PML is decomposing \\(\\phi \\) as:
 
